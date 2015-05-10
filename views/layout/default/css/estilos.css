@@ -1,0 +1,170 @@
+﻿
+body{
+	background-color:white;
+	font-family: Arial, sans-serif;
+	margin:5%;
+}
+
+a {
+
+	color:white;
+}
+
+/* ---------- TABLA ANUNCIOS ---------- */
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px silver solid;
+	color:white;
+}
+
+td, th {
+    padding: 3px 6px;
+}
+
+td {
+    text-align: left;
+    vertical-align: top;
+}
+
+
+/* -------- HEADER -------- */
+
+#header{
+	display:flex;
+	height: auto;
+	width:100%;
+	margin-bottom:-1%;
+}
+
+#logo{
+	flex: 1 60%;
+	 color:#36F;
+	 font-size:55px;
+	 font-weight:bold;
+}
+
+
+
+
+#top_menu{
+	flex:40%;
+	height: auto;
+	color: white;
+	overflow: hidden;
+	text-transform: uppercase;
+	line-height: 55px;
+}
+
+
+#top_menu div{
+	display: inline;
+	margin-right:2%;
+	font-size:25px;
+	line-height:100px;
+	
+}
+
+#top_menu a{
+	color: #3498db;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+/* -------- CONTENIDO --------- */
+#content{
+	background-color:#3498db;
+	color: #6E6E6E;
+	display:flex;
+	background: #3498db;
+	font-family: "Trebuchet MS", sans-serif;
+	border-radius:1%;
+	
+	
+}
+h1 {
+	color: white;
+	
+	}
+h2{
+	color:white;
+	
+	
+	}
+.div1 {
+	flex:1 20%;
+	
+	 
+	
+}
+.div2{
+	margin-top:1%;
+	flex:1 60%;
+	text-align: center;
+    vertical-align: top;
+	
+	
+	}
+.div3{
+	margin:0.5%;
+	border-radius:2%;
+	border:1 solid;
+	
+	
+	}
+.div1users{
+	flex:1 20%;
+	margin:1%;
+	
+	
+	}
+.div2users{
+	margin:1%;
+	flex:1 100%;
+	text-align: center;
+    vertical-align: top;
+	
+	
+	}
+	
+.div3users{
+	
+	margin:1%;
+	
+	
+	
+	}
+
+/* ----------- FOOTER --------- */
+footer{
+	color: #3498db;
+	display:flex;
+	padding:1%;
+	justify-content: center;
+	font-size:25px;
+}
+
+p{
+	margin-left:5%;
+	float:left;
+	color:white;
+	
+	}
+.pbutton{
+	margin-left:5%;
+	float:left;
+	
+	
+	}
+	
+.map{
+	width:60%;
+	height:300px;
+	margin:2%;
+	
+	
+	}
+	
